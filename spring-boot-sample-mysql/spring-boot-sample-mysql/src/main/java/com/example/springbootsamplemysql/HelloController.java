@@ -21,6 +21,6 @@ public class HelloController {
 	@RequestMapping("/hello/{name}")
 	public String helloName(@PathVariable String name){
 		logger.debug("访问helloName,Name={}",name);
-		return "Hello "+name;
+		return "你好！ "+name;
 	}
 }
