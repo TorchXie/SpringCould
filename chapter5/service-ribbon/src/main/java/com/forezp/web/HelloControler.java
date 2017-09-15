@@ -17,6 +17,4 @@ public class HelloControler {
     public String hi(@RequestParam String name){
         return helloService.hiService(name);
     }
-
-
 }
