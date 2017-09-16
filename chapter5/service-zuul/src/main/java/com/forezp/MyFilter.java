@@ -15,7 +15,7 @@ public class MyFilter extends ZuulFilter{
 
     private static Logger log = LoggerFactory.getLogger(MyFilter.class);
     @Override
-    public String filterType() {
+    public String filterType() {    	
         return "pre";
     }
 
